@@ -1,0 +1,58 @@
+<section class="section hero-section">
+    <!--  -->
+    <include src="./partials/components/elipseOrange.html"></include>
+    <include src="./partials/components/elipseOrange.html"></include>
+    <include src="./partials/components/elipseTeal.html"> </include>
+    <include src="./partials/components/elipseTeal.html"></include>
+    <!--  -->
+    <div class="container header-container">
+        <svg class="header-logo">
+            <use href="./images/svg/sprite.svg#Bitcoinistorg" class="icon-svg">
+        </svg>
+    </div>
+    <div class="container hero-container">
+
+        <div class="wraper-img">
+            <picture class="hero-elipse">
+                <source srcset="./images/hero/elipse/elipseDesctop.png 1x, ./images/hero/elipse/elipse@2Desctop.png 2x"
+                    media="(min-width:1200px)" />
+
+                <source srcset="./images/hero/elipse/elipseMobile.png 1x, ./images/hero/elipse/elipse@2Mobile.png 2x"
+                    media="(min-width:480px)" />
+
+                <img src="./images/hero/elipse/elipseMobile.png" alt="">
+            </picture>
+
+            <picture class="hero-elipse-blur">
+                <source srcset="./images/hero/elipse/elipseDesctop.png 1x, ./images/hero/elipse/elipse@2Desctop.png 2x"
+                    media="(min-width:1200px)" />
+
+                <source srcset="./images/hero/elipse/elipseMobile.png 1x, ./images/hero/elipse/elipse@2Mobile.png 2x"
+                    media="(min-width:480px)" />
+
+                <img src="./images/hero/elipse/elipseMobile.png" alt="">
+            </picture>
+            <!--  -->
+            <picture class="hero-bitoc">
+                <source srcset="./images/hero/bitoc/bitocDesctop.png 1x, ./images/hero/bitoc/bitoc@2Desctop.png 2x"
+                    media="(min-width:1200px)" />
+
+                <source srcset="./images/hero/bitoc/bitocModile.png 1x, ./images/hero/bitoc/bitoc@2Mobile.png 2x"
+                    media="(min-width:480px)" />
+
+                <img src="./images/hero/bitoc/bitocModile.png" alt="">
+            </picture>
+            <!--  -->
+        </div>
+        <div class="hero-text-wrapper">
+            <p class="hero-text">
+                Pleb supported privacy focused public
+                <svg class="hero-matrix">
+                    <use href="./images/svg/sprite.svg#matrix" class="icon-svg">
+                </svg>
+                server
+            </p>
+            <include src="./partials/components/button.html"></include>
+        </div>
+    </div>
+</section>

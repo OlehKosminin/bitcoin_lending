@@ -1,0 +1,25 @@
+.elipse {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.elipseOrange {
+  background: radial-gradient(
+    87.04% 87.04% at 21.3% 8.33%,
+    #ffe1b4 24.11%,
+    #e4951d 78.77%
+  );
+}
+
+.elipseTeal {
+  width: 54px;
+  height: 54px;
+
+  background: radial-gradient(
+    87.04% 87.04% at 21.3% 8.33%,
+    #c7fff0 24.11%,
+    #2ad6ab 78.77%
+  );
+}

@@ -1,2 +1,11 @@
+@import './mixin';
 @import './common';
 @import './example';
+@import './base';
+@import './components/elipse_position.scss';
+@import './components/font';
+@import './components/variable';
+@import './components/elipse.scss';
+@import './components/button.scss';
+@import './layout/header';
+@import './layout/hero';
