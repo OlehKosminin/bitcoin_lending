@@ -1,0 +1,15 @@
+$maxMidth: 1980;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media screen and (max-width: 767px) {
+    font-size: calc(
+      #{$mobSize +px} + #{$addMobSize} * ((100vw - 320px) / #{$maxMidth})
+    );
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: calc(#{$mobSize +px} + #{$addSize} * (100vw / #{$maxMidth}));
+  }
+}

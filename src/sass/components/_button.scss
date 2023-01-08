@@ -1,0 +1,40 @@
+.button_hero {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 118.5%;
+  /* identical to box height, or 26px */
+  text-align: center;
+
+  color: var(--acent-color);
+
+  padding: 25px 130px;
+
+  border-radius: var(--button-hero-border-radius-modile);
+  border: none;
+  box-shadow: var(--button-box-shadow);
+  background-image: var(--button-gradien-color);
+
+  transition: all var(--cubick-bezier);
+  background-size: 300% 100%;
+
+  &:hover {
+    transform: scale(105%);
+
+    transition: all var(--cubick-bezier);
+    background-image: linear-gradient(to right, #ff4b32 19.74%, #ff9a01 35.57%);
+    background-position: 2% 0%;
+  }
+
+  @media screen and (max-width: 390px) {
+    padding: 20px 100px;
+  }
+
+  @media screen and(min-width:768px) {
+    font-size: 28px;
+    line-height: 118.5%;
+
+    padding: 30px 160px;
+  }
+}
